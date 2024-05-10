@@ -11,11 +11,11 @@ export const nav = [{
 
 export const working = [{
   display: 'Button',
-  link: '/button',
+  link: '/comp/button',
 }]
 
 export const experimental = [{
   display: 'Tabs',
-  link: '/tabs',
+  link: '/comp/tabs',
 }]
 
