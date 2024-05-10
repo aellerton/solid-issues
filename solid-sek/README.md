@@ -3,6 +3,8 @@
 This is a solid-start project designed to validate parts of
 sek-consulting's solid-ui.
 
+![screenshot](screenshot.png "Screenshot")
+
 Created with:
 
 ```
