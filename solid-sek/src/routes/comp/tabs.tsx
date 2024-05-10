@@ -1,8 +1,8 @@
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "~/components/ui/tabs"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '~/components/ui/tabs'
 
 export default function Comp() {
   return (
-    <main class="mx-auto text-gray-700 p-4 flex flex-col pad-4 items-center">
+    <main class="pad-4 mx-auto flex flex-col items-center p-4 text-gray-700">
       <Tabs defaultValue="account" class="w-[400px]">
         <TabsList class="grid w-full grid-cols-2">
           <TabsTrigger value="account">Account</TabsTrigger>

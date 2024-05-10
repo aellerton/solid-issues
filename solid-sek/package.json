@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
+    "format": "prettier src -w",
     "start": "vinxi start"
   },
   "dependencies": {
@@ -22,5 +23,9 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14"
   }
 }
